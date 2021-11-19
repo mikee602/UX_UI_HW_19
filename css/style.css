@@ -92,14 +92,6 @@ li{
     height: 32px;
     left: 212px;
     top: 680px;
-    -webkit-animation:bounce 1s infinite;
-    -moz-animation:bounce 1s infinite;
-    -o-animation:bounce 1s infinite;
-    animation:bounce 1s infinite;
-  
-  }
-  
-  @-webkit-keyframes .caretdown {
 }
 .bounce{
     animation: bounceArrow .7s infinite;
