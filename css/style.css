@@ -58,6 +58,16 @@ li{
     margin-left: 0;
 }
 
+.menu a{
+    color: #35302d;
+}
+
+a{
+    color: #fafafa;
+    text-decoration: none;
+    
+}
+
 .top-section{
     display: flex;
     align-items: left;
