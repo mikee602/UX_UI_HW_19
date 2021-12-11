@@ -7,3 +7,9 @@ var typing = new Typed (".typing" ,{
     backSpeed:60,
     loop: true
 });
+
+$(document).ready(function(){
+    $("#expertise button").click(function(){
+      $("#expertise p").toggle(1000);
+    });
+  });

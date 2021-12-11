@@ -219,10 +219,39 @@ button:hover{
     padding-top: 5px;
 }
 
+#expertise button{
+    background-color: #f4f4f4;
+    color:#35302d;
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 28px;
+    font-style: thin;
+    border-color:#35302d;
+    width: 500px;
+    height: 50px;
+    left: 100px;
+    top: 477px;
+    border-radius: 10px;
+    transition: .3s;
+}
+#expertise button:hover{
+    text-decoration: underline;
+    text-decoration-color: #E8Bd28;
+    text-decoration-thickness: 5px;
+    text-decoration-style: solid;
+    }
+
+#expertise button:active{
+        text-decoration: underline;
+        text-decoration-color: #E8Bd28;
+        text-decoration-thickness: 5px;
+        text-decoration-style: solid;
+        }
+
 .skillsContainer #expertise p{
     padding-top: 20px;
     text-align: center;
     text-shadow: 1px 1px #E8Bd28;
+    display: none;
 }
 
 .myWork h2{
