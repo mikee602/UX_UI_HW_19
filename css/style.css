@@ -68,6 +68,8 @@ a{
     
 }
 
+
+
 .top-section{
     display: flex;
     align-items: left;
@@ -93,11 +95,20 @@ a{
     position: static;
     width: 600px; 
     margin-left: 20px;
+    font-family: "Lato", sans-serif;
+    font-size: 36px;
+
 }
 
-.subheadline button{
- 
+.subheadline span{
+    color: #c9a959;
 }
+
+.main-button{
+    padding-top: 60px;
+    padding-left: 20px;
+}
+
 
 .caretdown{
     position: absolute;

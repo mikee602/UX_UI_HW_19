@@ -1,14 +1,9 @@
 console.log("Hello world!");
 
-var app = document.getElementById('headline');
-var typewriter = new Typewriter(app, {
-    loop: true,
-    cursor: "",
-});
-typewriter.typeString('Hello!')
-    .pauseFor(2500)
-    .deleteAll()
-    .typeString('I am Michael Everett')
-    .pauseFor(2500)
-    .start();
+var typing = new Typed (".typing" ,{
 
+    strings : ["UX Designer", "Web Designer", "Strategist", "Freelancer"],
+    typeSpeed: 100,
+    backSpeed:60,
+    loop: true
+});
